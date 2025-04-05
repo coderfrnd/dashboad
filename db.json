@@ -1,0 +1,175 @@
+{
+  "patients": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "age": 32,
+      "bloodGroup": "O+",
+      "allergies": "Penicillin",
+      "chronicConditions": "Hypertension",
+      "lastVisit": "2025-01-12",
+      "status": false
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "age": 45,
+      "bloodGroup": "A-",
+      "allergies": "None",
+      "chronicConditions": "Diabetes",
+      "lastVisit": "2025-03-18",
+      "status": true
+    },
+    {
+      "id": 4,
+      "name": "Jane Smith",
+      "age": 45,
+      "bloodGroup": "A-",
+      "allergies": "None",
+      "chronicConditions": "Diabetes",
+      "lastVisit": "2025-03-18",
+      "status": true
+    },
+    {
+      "id": 3,
+      "name": "Jane Smith",
+      "age": 45,
+      "bloodGroup": "A-",
+      "allergies": "None",
+      "chronicConditions": "Diabetes",
+      "lastVisit": "2025-03-18",
+      "status": false
+    },
+    {
+      "id": 5,
+      "name": "Jane Smith",
+      "age": 45,
+      "bloodGroup": "A-",
+      "allergies": "None",
+      "chronicConditions": "Diabetes",
+      "lastVisit": "2025-03-18",
+      "status": false
+    },
+    {
+      "id": 6,
+      "name": "Jane Smith",
+      "age": 45,
+      "bloodGroup": "A-",
+      "allergies": "None",
+      "chronicConditions": "Diabetes",
+      "lastVisit": "2025-03-18",
+      "status": true
+    }
+  ],
+  "appointments": [
+    {
+      "id": 1,
+      "patientId": 1,
+      "date": "2025-04-10",
+      "doctor": "Dr. Smith",
+      "department": "Cardiology",
+      "status": "Confirmed"
+    },
+    {
+      "id": 2,
+      "patientId": 2,
+      "date": "2025-04-15",
+      "doctor": "Dr. Patel",
+      "department": "Endocrinology",
+      "status": "Pending"
+    }
+  ],
+  "admissions": [
+    {
+      "id": 1,
+      "patientId": 1,
+      "admitDate": "2024-12-05",
+      "dischargeDate": "2024-12-10",
+      "ward": "Cardiology",
+      "bed": "B23"
+    },
+    {
+      "id": 2,
+      "patientId": 2,
+      "admitDate": "2025-01-20",
+      "dischargeDate": "2025-01-25",
+      "ward": "General",
+      "bed": "G12"
+    }
+  ],
+  "communications": [
+    {
+      "id": 1,
+      "patientId": 1,
+      "type": "email",
+      "date": "2025-04-02",
+      "subject": "Follow-up Visit Reminder"
+    },
+    {
+      "id": 2,
+      "patientId": 1,
+      "type": "sms",
+      "date": "2025-04-01",
+      "message": "Don't forget your upcoming appointment"
+    },
+    {
+      "id": 3,
+      "patientId": 2,
+      "type": "email",
+      "date": "2025-03-30",
+      "subject": "Lab Results Ready"
+    }
+  ],
+  "staff": [
+    {
+      "id": 1,
+      "name": "Dr. Smith",
+      "role": "Cardiologist",
+      "email": "dr.smith@hospital.com",
+      "phone": "123-456-7890",
+      "available": true
+    },
+    {
+      "id": 2,
+      "name": "Nurse Joy",
+      "role": "Nurse",
+      "email": "n.joy@hospital.com",
+      "phone": "987-654-3210",
+      "available": false
+    },
+    {
+      "id": 3,
+      "name": "Dr. Patel",
+      "role": "Endocrinologist",
+      "email": "dr.patel@hospital.com",
+      "phone": "555-123-4567",
+      "available": true
+    }
+  ],
+  "finances": [
+    {
+      "id": 1,
+      "patientId": 1,
+      "invoiceNo": "INV-1001",
+      "amount": 3500,
+      "status": "Paid",
+      "date": "2025-04-01"
+    },
+    {
+      "id": 2,
+      "patientId": 1,
+      "invoiceNo": "INV-1002",
+      "amount": 1200,
+      "status": "Pending",
+      "date": "2025-04-04"
+    },
+    {
+      "id": 3,
+      "patientId": 2,
+      "invoiceNo": "INV-1003",
+      "amount": 2200,
+      "status": "Paid",
+      "date": "2025-03-20"
+    }
+  ]
+}
