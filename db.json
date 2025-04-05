@@ -1,175 +1,308 @@
 {
-  "patients": [
+  "patientDashboard": [
     {
-      "id": 1,
-      "name": "John Doe",
-      "age": 32,
+      "id": "1",
+      "name": "Amanda Thompson",
+      "age": 50,
+      "bloodGroup": "B-",
+      "allergies": "Dust",
+      "chronicConditions": "None",
+      "lastVisit": "2025-02-26",
+      "status": false,
+      "email": "robert10@martin.net",
+      "phone": "9642947480"
+    },
+    {
+      "id": "2",
+      "name": "Jared Hall",
+      "age": 82,
+      "bloodGroup": "B+",
+      "allergies": "Dust",
+      "chronicConditions": "Asthma",
+      "lastVisit": "2025-01-23",
+      "status": true,
+      "email": "regina54@yahoo.com",
+      "phone": "6305826733"
+    },
+    {
+      "id": "3",
+      "name": "Patrick Herrera",
+      "age": 39,
+      "bloodGroup": "A+",
+      "allergies": "Penicillin",
+      "chronicConditions": "Diabetes",
+      "lastVisit": "2024-10-10",
+      "status": true,
+      "email": "ramirezdaniel@adams-robinson.com",
+      "phone": "9728669774"
+    },
+    {
+      "id": "4",
+      "name": "Steven Brewer MD",
+      "age": 72,
+      "bloodGroup": "B+",
+      "allergies": "Pollen",
+      "chronicConditions": "Asthma",
+      "lastVisit": "2024-12-17",
+      "status": false,
+      "email": "sarahmurphy@yahoo.com",
+      "phone": "7188204179"
+    },
+    {
+      "id": "5",
+      "name": "Benjamin Manning",
+      "age": 44,
+      "bloodGroup": "A+",
+      "allergies": "None",
+      "chronicConditions": "Arthritis",
+      "lastVisit": "2024-09-12",
+      "status": true,
+      "email": "evansreginald@cohen-fitzgerald.net",
+      "phone": "9343572905"
+    },
+    {
+      "id": "6",
+      "name": "Mary Gates",
+      "age": 40,
+      "bloodGroup": "AB+",
+      "allergies": "None",
+      "chronicConditions": "Diabetes",
+      "lastVisit": "2024-05-23",
+      "status": false,
+      "email": "rachel49@yahoo.com",
+      "phone": "9649625910"
+    },
+    {
+      "id": "7",
+      "name": "Bridget Hunter",
+      "age": 48,
+      "bloodGroup": "B+",
+      "allergies": "None",
+      "chronicConditions": "None",
+      "lastVisit": "2024-04-17",
+      "status": true,
+      "email": "johnsontina@stone-jones.com",
+      "phone": "3434245137"
+    },
+    {
+      "id": "8",
+      "name": "Donna Delgado",
+      "age": 27,
       "bloodGroup": "O+",
       "allergies": "Penicillin",
-      "chronicConditions": "Hypertension",
-      "lastVisit": "2025-01-12",
-      "status": false
+      "chronicConditions": "Arthritis",
+      "lastVisit": "2025-01-21",
+      "status": true,
+      "email": "boyerrobert@ross.com",
+      "phone": "3558625231"
     },
     {
-      "id": 2,
-      "name": "Jane Smith",
-      "age": 45,
-      "bloodGroup": "A-",
-      "allergies": "None",
-      "chronicConditions": "Diabetes",
-      "lastVisit": "2025-03-18",
-      "status": true
+      "id": "9",
+      "name": "Amanda Crane",
+      "age": 75,
+      "bloodGroup": "AB+",
+      "allergies": "Dust",
+      "chronicConditions": "Arthritis",
+      "lastVisit": "2025-01-05",
+      "status": true,
+      "email": "gguzman@hopkins-banks.com",
+      "phone": "1466259414"
     },
     {
-      "id": 4,
-      "name": "Jane Smith",
-      "age": 45,
+      "id": "10",
+      "name": "Kelly Frazier",
+      "age": 39,
       "bloodGroup": "A-",
-      "allergies": "None",
-      "chronicConditions": "Diabetes",
-      "lastVisit": "2025-03-18",
-      "status": true
-    },
-    {
-      "id": 3,
-      "name": "Jane Smith",
-      "age": 45,
-      "bloodGroup": "A-",
-      "allergies": "None",
-      "chronicConditions": "Diabetes",
-      "lastVisit": "2025-03-18",
-      "status": false
-    },
-    {
-      "id": 5,
-      "name": "Jane Smith",
-      "age": 45,
-      "bloodGroup": "A-",
-      "allergies": "None",
-      "chronicConditions": "Diabetes",
-      "lastVisit": "2025-03-18",
-      "status": false
-    },
-    {
-      "id": 6,
-      "name": "Jane Smith",
-      "age": 45,
-      "bloodGroup": "A-",
-      "allergies": "None",
-      "chronicConditions": "Diabetes",
-      "lastVisit": "2025-03-18",
-      "status": true
+      "allergies": "Dust",
+      "chronicConditions": "None",
+      "lastVisit": "2024-05-15",
+      "status": true,
+      "email": "aclark@yahoo.com",
+      "phone": "6100306649"
     }
   ],
-  "appointments": [
+  "staffDashboard": [
     {
-      "id": 1,
-      "patientId": 1,
-      "date": "2025-04-10",
-      "doctor": "Dr. Smith",
+      "id": "1",
+      "name": "Christopher Pollard",
+      "department": "Orthopedics",
+      "shift": "Night",
+      "onDuty": true,
+      "email": "brodriguez@gmail.com",
+      "phone": "2225407279"
+    },
+    {
+      "id": "2",
+      "name": "Nathaniel Collins",
+      "department": "Neurology",
+      "shift": "Evening",
+      "onDuty": true,
+      "email": "gacevedo@hotmail.com",
+      "phone": "2950525233"
+    },
+    {
+      "id": "3",
+      "name": "Tracy Rice",
       "department": "Cardiology",
-      "status": "Confirmed"
+      "shift": "Morning",
+      "onDuty": false,
+      "email": "pamelarobinson@gmail.com",
+      "phone": "8568222007"
     },
     {
-      "id": 2,
-      "patientId": 2,
-      "date": "2025-04-15",
-      "doctor": "Dr. Patel",
-      "department": "Endocrinology",
-      "status": "Pending"
+      "id": "4",
+      "name": "Jay Martinez",
+      "department": "Orthopedics",
+      "shift": "Morning",
+      "onDuty": true,
+      "email": "sayala@gmail.com",
+      "phone": "9783570648"
+    },
+    {
+      "id": "5",
+      "name": "Briana Elliott",
+      "department": "Orthopedics",
+      "shift": "Morning",
+      "onDuty": false,
+      "email": "cervantesjennifer@phillips.com",
+      "phone": "5224582063"
+    },
+    {
+      "id": "6",
+      "name": "Charles Jacobs",
+      "department": "Orthopedics",
+      "shift": "Night",
+      "onDuty": true,
+      "email": "gregorylong@phillips.biz",
+      "phone": "5932185610"
+    },
+    {
+      "id": "7",
+      "name": "Jeffrey Martin",
+      "department": "Cardiology",
+      "shift": "Evening",
+      "onDuty": false,
+      "email": "hillchad@costa.com",
+      "phone": "6910165621"
+    },
+    {
+      "id": "8",
+      "name": "Mary Obrien",
+      "department": "Neurology",
+      "shift": "Evening",
+      "onDuty": true,
+      "email": "bcook@thomas-randall.info",
+      "phone": "1317129716"
+    },
+    {
+      "id": "9",
+      "name": "Jeffrey Butler",
+      "department": "Cardiology",
+      "shift": "Night",
+      "onDuty": true,
+      "email": "vjones@hotmail.com",
+      "phone": "4954977340"
+    },
+    {
+      "id": "10",
+      "name": "Christine Reynolds",
+      "department": "Neurology",
+      "shift": "Morning",
+      "onDuty": true,
+      "email": "molinakathryn@bailey.com",
+      "phone": "0601439064"
     }
   ],
-  "admissions": [
+  "financialDashboard": [
     {
-      "id": 1,
-      "patientId": 1,
-      "admitDate": "2024-12-05",
-      "dischargeDate": "2024-12-10",
-      "ward": "Cardiology",
-      "bed": "B23"
+      "id": "1",
+      "billDate": "2025-03-25",
+      "amount": 5282,
+      "paymentStatus": "Overdue",
+      "claimStatus": "Approved",
+      "email": "chelsea07@hotmail.com",
+      "phone": "0043806636"
     },
     {
-      "id": 2,
-      "patientId": 2,
-      "admitDate": "2025-01-20",
-      "dischargeDate": "2025-01-25",
-      "ward": "General",
-      "bed": "G12"
-    }
-  ],
-  "communications": [
-    {
-      "id": 1,
-      "patientId": 1,
-      "type": "email",
-      "date": "2025-04-02",
-      "subject": "Follow-up Visit Reminder"
+      "id": "2",
+      "billDate": "2025-02-18",
+      "amount": 7480,
+      "paymentStatus": "Unpaid",
+      "claimStatus": "Rejected",
+      "email": "heatheracosta@wiggins.com",
+      "phone": "8356158996"
     },
     {
-      "id": 2,
-      "patientId": 1,
-      "type": "sms",
-      "date": "2025-04-01",
-      "message": "Don't forget your upcoming appointment"
+      "id": "3",
+      "billDate": "2025-01-03",
+      "amount": 8967,
+      "paymentStatus": "Paid",
+      "claimStatus": "Pending",
+      "email": "wkidd@campbell-jackson.com",
+      "phone": "0621049224"
     },
     {
-      "id": 3,
-      "patientId": 2,
-      "type": "email",
-      "date": "2025-03-30",
-      "subject": "Lab Results Ready"
-    }
-  ],
-  "staff": [
-    {
-      "id": 1,
-      "name": "Dr. Smith",
-      "role": "Cardiologist",
-      "email": "dr.smith@hospital.com",
-      "phone": "123-456-7890",
-      "available": true
+      "id": "4",
+      "billDate": "2025-02-09",
+      "amount": 3246,
+      "paymentStatus": "Unpaid",
+      "claimStatus": "Pending",
+      "email": "kevin95@yahoo.com",
+      "phone": "1871852980"
     },
     {
-      "id": 2,
-      "name": "Nurse Joy",
-      "role": "Nurse",
-      "email": "n.joy@hospital.com",
-      "phone": "987-654-3210",
-      "available": false
+      "id": "5",
+      "billDate": "2024-11-07",
+      "amount": 3039,
+      "paymentStatus": "Paid",
+      "claimStatus": "Pending",
+      "email": "edwardhaynes@hotmail.com",
+      "phone": "7918476667"
     },
     {
-      "id": 3,
-      "name": "Dr. Patel",
-      "role": "Endocrinologist",
-      "email": "dr.patel@hospital.com",
-      "phone": "555-123-4567",
-      "available": true
-    }
-  ],
-  "finances": [
-    {
-      "id": 1,
-      "patientId": 1,
-      "invoiceNo": "INV-1001",
-      "amount": 3500,
-      "status": "Paid",
-      "date": "2025-04-01"
+      "id": "6",
+      "billDate": "2024-12-12",
+      "amount": 1769,
+      "paymentStatus": "Overdue",
+      "claimStatus": "Rejected",
+      "email": "nhernandez@shah.com",
+      "phone": "4256938813"
     },
     {
-      "id": 2,
-      "patientId": 1,
-      "invoiceNo": "INV-1002",
-      "amount": 1200,
-      "status": "Pending",
-      "date": "2025-04-04"
+      "id": "7",
+      "billDate": "2024-11-01",
+      "amount": 7529,
+      "paymentStatus": "Paid",
+      "claimStatus": "Approved",
+      "email": "evanswilliam@love-bowen.biz",
+      "phone": "5210685656"
     },
     {
-      "id": 3,
-      "patientId": 2,
-      "invoiceNo": "INV-1003",
-      "amount": 2200,
-      "status": "Paid",
-      "date": "2025-03-20"
+      "id": "8",
+      "billDate": "2025-01-11",
+      "amount": 4993,
+      "paymentStatus": "Unpaid",
+      "claimStatus": "Approved",
+      "email": "lhiggins@gmail.com",
+      "phone": "7879604009"
+    },
+    {
+      "id": "9",
+      "billDate": "2025-01-06",
+      "amount": 9806,
+      "paymentStatus": "Unpaid",
+      "claimStatus": "Approved",
+      "email": "ryan46@yahoo.com",
+      "phone": "3795138986"
+    },
+    {
+      "id": "10",
+      "billDate": "2024-11-30",
+      "amount": 5819,
+      "paymentStatus": "Overdue",
+      "claimStatus": "Approved",
+      "email": "allenvirginia@hotmail.com",
+      "phone": "6894730707"
     }
   ]
 }
