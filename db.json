@@ -119,6 +119,78 @@
       "status": true,
       "email": "aclark@yahoo.com",
       "phone": "6100306649"
+    },
+    {
+      "id": "9c08",
+      "name": "Batman",
+      "age": 28,
+      "bloodGroup": "A-",
+      "allergies": "Headche",
+      "chronicConditions": "Nothing",
+      "lastVisit": "5202-02-01",
+      "status": false,
+      "email": "abhishek20ei02@gmail.com",
+      "phone": "09140756009"
+    },
+    {
+      "id": "566b",
+      "name": "IIT",
+      "age": 26,
+      "bloodGroup": "A-",
+      "allergies": "STUDY",
+      "chronicConditions": "NOTHING",
+      "lastVisit": "1000-02-05",
+      "status": false,
+      "email": "abhishek20ei02@gmail.com",
+      "phone": "09140756009"
+    },
+    {
+      "id": "b21b",
+      "name": "shinchan",
+      "age": 5,
+      "bloodGroup": "o+",
+      "allergies": "study",
+      "chronicConditions": "nothing",
+      "lastVisit": "2026-02-26",
+      "status": false,
+      "email": "nothing@gmail.com",
+      "phone": "9876543210"
+    },
+    {
+      "id": "c59c",
+      "name": "Abhishek Jaiswal",
+      "age": 52,
+      "bloodGroup": "aa",
+      "allergies": "aaaa",
+      "chronicConditions": "aaaa",
+      "lastVisit": "22222-02-05",
+      "status": false,
+      "email": "abhishek20ei02@gmail.com",
+      "phone": "09140756009"
+    },
+    {
+      "id": "5865",
+      "name": "SuperMan 123",
+      "age": 26,
+      "bloodGroup": "A+",
+      "allergies": "STUDY",
+      "chronicConditions": "Nothing",
+      "lastVisit": "2001-02-02",
+      "status": false,
+      "email": "abhishek20ei02@gmail.com",
+      "phone": "09140756009"
+    },
+    {
+      "id": "d8ec",
+      "name": "Doom",
+      "age": 56,
+      "bloodGroup": "A+",
+      "allergies": "Study",
+      "chronicConditions": "Nothing",
+      "lastVisit": "2002-02-02",
+      "status": false,
+      "email": "doom@gmial.com",
+      "phone": "9876543210"
     }
   ],
   "staffDashboard": [
@@ -211,6 +283,60 @@
       "onDuty": true,
       "email": "molinakathryn@bailey.com",
       "phone": "0601439064"
+    },
+    {
+      "id": "17d4",
+      "name": "Abhishek Jaiswal",
+      "department": "aaaaa",
+      "shift": "night",
+      "onDuty": true,
+      "email": "abhishek20ei02@gmail.com",
+      "phone": "09140756009"
+    },
+    {
+      "id": "167e",
+      "name": "hieme",
+      "department": "aajajah",
+      "shift": "night",
+      "onDuty": false,
+      "email": "ssss@gmail.com",
+      "phone": "955453689656"
+    },
+    {
+      "id": "a6b1",
+      "name": "Iron Man",
+      "department": "aajajah",
+      "shift": "night",
+      "onDuty": true,
+      "email": "abhishek2@gmail.com",
+      "phone": "09140756009"
+    },
+    {
+      "id": "aff2",
+      "name": "Superman",
+      "department": "aajajah",
+      "shift": "day",
+      "onDuty": true,
+      "email": "abhishek20ei02@gmail.com",
+      "phone": "09140756009"
+    },
+    {
+      "id": "fe32",
+      "name": "Sinchan",
+      "department": "Brain",
+      "shift": "night",
+      "onDuty": true,
+      "email": "hangama@gmail.com",
+      "phone": "9876543210"
+    },
+    {
+      "id": "6790",
+      "name": "doom bro",
+      "department": "Mind",
+      "shift": "night",
+      "onDuty": true,
+      "email": "doom@gmail.com",
+      "phone": "9876543210"
     }
   ],
   "financialDashboard": [
